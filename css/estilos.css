@@ -21,13 +21,13 @@ body {
 }
 
 .logo-1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 .logo-2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  color:  linear-gradient(to right, red, rgb(251, 171, 171));
+  background-image: linear-gradient(to right, red, rgb(251, 171, 171));
 }
 
 .my-playlist {
