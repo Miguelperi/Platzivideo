@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  margin: 0 100px;
+}
+
+.left {
+  background: #00001a;
+  color: white;
+  padding: 0 10px;
+}
+.logo {
+  margin: 50px 0;
+}
+
+.logo-1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.logo-2 {
+  font-size: 30px;
+  font-weight: bold;
+  color:  linear-gradient(to right, red, rgb(251, 171, 171));
+}
+
+.my-playlist {
+  margin-bottom: 50px;
+}
+
+.item-playlist {
+  display: flex;
+  margin: 10px 0;
+}
+.item-playlist p {
+  margin: 0 5px;
+}
+
+.friend {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+.friend img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.video {
+  display: grid;
+  grid-template-rows: 1fr 50px 50px 80px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.video-description {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.video-visitas {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 200px 100px 200px 100px 100px 100px 100px;
+}
+
+.links button {
+  margin: 20px 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, red, rgb(251, 171, 171));
+  color: white;
+}
+
+.links img {
+  margin: 10px 15px;
+}
+
+.links p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 5px;
+  border-radius: 20px;
+  color: white;
+}
+
+.links p:nth-of-type(1){
+  background-color: rgb(163, 0, 204);
+}
+.links p:nth-of-type(2){
+  background-color: rgb(0, 184, 230);
+}
+.links p:nth-of-type(3){
+  background-color: rgb(0, 179, 0);
+}
+.links p:nth-of-type(4){
+  background-color: rgb(255, 51, 204);
+}
+
+.coments {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.coment-form {
+  display: flex;
+  margin: 20px 0;
+}
+.coment-form input {
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 10px;
+  /* position: relative; */
+}
+.coment-form img {
+  /* position: absolute; */
+}
+.comsug {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+}
+
+.suggest {
+  margin: 0 20px;
+}
+
+.suggest p {
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: rgb(61, 61, 92);
+}
