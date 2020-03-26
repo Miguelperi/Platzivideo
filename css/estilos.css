@@ -34,12 +34,11 @@ body {
   margin-bottom: 50px;
 }
 
-.item-playlist {
-  display: flex;
-  margin: 10px 0;
+ol {
+  padding-left: 25px;
 }
-.item-playlist p {
-  margin: 0 5px;
+li {
+ margin-bottom: 20px;
 }
 
 .friend {
